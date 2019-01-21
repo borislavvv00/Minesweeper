@@ -1,0 +1,16 @@
+﻿  GameWindows.cpp
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\cell\cell.h(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\inputbar\inputbar.h(20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\inputbar\inputbar.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\inputbar\inputbar.h(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\gamestats\gamestats.h(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\gamestats\gamestats.h(28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\gamestats\gamestats.h(31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\game\gamewindows.cpp(54): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\game\gamewindows.cpp(55): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\game\gamewindows.cpp(73): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\game\gamewindows.cpp(161): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\game\gamewindows.cpp(163): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\game\gamewindows.cpp(164): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Minesweeper.vcxproj -> C:\Users\admin\documents\visual studio 2015\Projects\CppProjects\Minesweeper\Debug\Minesweeper.exe
+  Minesweeper.vcxproj -> C:\Users\admin\documents\visual studio 2015\Projects\CppProjects\Minesweeper\Debug\Minesweeper.pdb (Full PDB)
