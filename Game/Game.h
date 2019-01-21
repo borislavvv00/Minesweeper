@@ -29,7 +29,7 @@ private:
 
 	void ReSetCells();
 	void SetGameWindowParameters(int n);
-	void StartGameWindow(sf::Window &window, sf::Text start, InputBar cellGrid);
+	void StartGameWindow(sf::Window &window, sf::Text start, InputBar cellGrid, InputBar minesNumber);
 public:
 	Game()
 	{

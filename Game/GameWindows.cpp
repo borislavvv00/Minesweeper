@@ -15,7 +15,7 @@ void Game::ReSetCells()
 	SetNumbers();
 }
 
-void Game::StartGameWindow(sf::Window &window, sf::Text start, InputBar cellGrid)
+void Game::StartGameWindow(sf::Window &window, sf::Text start, InputBar cellGrid, InputBar minesNumber)
 {
 	sf::Vector2i mousePosition = sf::Mouse::getPosition(window);
 
@@ -26,7 +26,9 @@ void Game::StartGameWindow(sf::Window &window, sf::Text start, InputBar cellGrid
 			start.setFillColor(sf::Color::Yellow);
 			if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
 			{
+				numberOfMines = minesNumber.GetInput();
 				SetGameWindowParameters(cellGrid.GetInput());
+				window.close();
 				CreateGameWindow();
 			}
 		}
@@ -108,6 +110,7 @@ void Game::CreateGameWindow()
 			if (event.type == sf::Event::Closed)
 			{
 				window.close();
+				CreateSettingsWindow();
 			}
 		}
 
@@ -119,6 +122,7 @@ void Game::CreateGameWindow()
 
 		if (gameStats.IsClickedOnStart(window, isMineExploded) == true)
 		{
+			isGamePaused = false;
 			ReSetCells();
 		}
 
@@ -160,8 +164,8 @@ void Game::CreateSettingsWindow()
 {
 	sf::RenderWindow window(sf::VideoMode(310.f, 367.f), "Settings");
 	sf::Event event;
-	InputBar cellGrid(30, 160, 317.f, 10, "cell grid X*X = ");
-	InputBar minesNumber(30, 120, 317.f, 180, "mines = ");
+	InputBar cellGrid(30, 170, 317.f, 7, "cell grid X*X = ");
+	InputBar minesNumber(30, 120, 317.f, 183, "mines = ");
 
 	sf::Font font;
 	sf::Text start;
@@ -190,8 +194,7 @@ void Game::CreateSettingsWindow()
 
 		cellGrid.MouseOverInputBox(window);
 		minesNumber.MouseOverInputBox(window);
-		numberOfMines = minesNumber.GetInput();
-		StartGameWindow(window, start, cellGrid);
+		StartGameWindow(window, start, cellGrid, minesNumber);
 
 		window.clear();
 		window.draw(cellGrid.GetInputShape());
