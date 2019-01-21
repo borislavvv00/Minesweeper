@@ -1,9 +1,4 @@
-﻿  InputBar.cpp
-c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\inputbar\inputbar.h(20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\inputbar\inputbar.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\inputbar\inputbar.h(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\inputbar\inputbar.cpp(16): warning C4018: '<': signed/unsigned mismatch
-  GameWindows.cpp
+﻿  GameWindows.cpp
 c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\cell\cell.h(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\inputbar\inputbar.h(20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\inputbar\inputbar.h(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -17,12 +12,5 @@ c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\min
 c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\game\gamewindows.cpp(165): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
 c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\game\gamewindows.cpp(167): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 c:\users\admin\documents\visual studio 2015\projects\cppprojects\minesweeper\minesweeper\game\gamewindows.cpp(168): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  Source.cpp
-  PlayerClikedOnEmptyCell.cpp
-  Player.cpp
-  GameCreateMineField.cpp
-  GameStats.cpp
   Minesweeper.vcxproj -> C:\Users\admin\documents\visual studio 2015\Projects\CppProjects\Minesweeper\Debug\Minesweeper.exe
   Minesweeper.vcxproj -> C:\Users\admin\documents\visual studio 2015\Projects\CppProjects\Minesweeper\Debug\Minesweeper.pdb (Full PDB)

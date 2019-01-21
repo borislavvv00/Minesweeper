@@ -72,7 +72,7 @@ void Game::SetGameWindowParameters(int n)
 
 void Game::CreateGameWindow()
 {
-	sf::RenderWindow window(sf::VideoMode(x, y), "Minesweeper");
+	sf::RenderWindow window(sf::VideoMode(x, y), "Minesweeper", sf::Style::Titlebar | sf::Style::Close);
 	sf::Event event;
 	Field field(x, y);
 	Player player(sqrtNumberOfCells);
@@ -162,7 +162,7 @@ void Game::CreateGameWindow()
 
 void Game::CreateSettingsWindow()
 {
-	sf::RenderWindow window(sf::VideoMode(310.f, 367.f), "Settings");
+	sf::RenderWindow window(sf::VideoMode(310.f, 367.f), "Settings", sf::Style::Titlebar | sf::Style::Close);
 	sf::Event event;
 	InputBar cellGrid(30, 170, 317.f, 7, "cell grid X*X = ");
 	InputBar minesNumber(30, 120, 317.f, 183, "mines = ");
